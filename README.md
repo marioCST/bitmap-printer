@@ -10,7 +10,7 @@ This system module captures the capture button event and instead of saving a com
 
 The IPC calls I use are caps:sc 1201-1203 that check a flag for debug mode. The patch makes the function call always return true.
 
-Works on HOS versions 3.0.0-21.2.0 (2026.01.29).
+Works on HOS versions 3.0.0-22.5.0 (2026.06.19).
 
 Included patches:
 
@@ -43,3 +43,6 @@ Included patches:
 |20.1.0.256|AFC93F0B66744F3FDE73C02D244B9E309B8738DE.ips|yes|
 |21.0.0.1280|CBF3505D9F075CD771B1F7A2D7202D2C0D3CEE62.ips|yes|
 |22.0.0-768|9527BE3A3BAAFBFB987A6DE1B62EF4792C01A19E.ips|no|
+
+
+
